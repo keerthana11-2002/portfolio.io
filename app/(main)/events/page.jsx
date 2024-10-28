@@ -16,7 +16,7 @@ const Events = async () =>{
     const{events,username} = await getUserEvents();
 
     if(events.length === 0){
-        return <p>You have&apos;t created any events yet.</p>
+        return <p>You have not created any events yet.</p>
     }
 
     return(
