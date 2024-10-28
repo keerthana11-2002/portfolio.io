@@ -31,13 +31,13 @@ const BookingForm = ({ event, availability }) => {
     if (selectedDate) {
       setValue("date", format(selectedDate, "yyyy-MM-dd"));
     }
-  }, [selectedDate]);
+  }, [selectedDate,setValue]);
 
   useEffect(() => {
     if (selectedTime) {
       setValue("time", selectedTime);
     }
-  }, [selectedTime]);
+  }, [selectedTime,setValue]);
 
   const { loading, data, fn: fnCreateBooking } = useFetch(createBooking);
 
