@@ -89,7 +89,7 @@ const BookingForm = ({ event, availability }) => {
           <span className="text-blue-500"> {formattedStartTime}.</span>
         </h2>
 
-        <h4 className="text-sm">We'll provide connection details shortly.</h4>
+        <h4 className="text-sm">We will provide connection details shortly.</h4>
       </div>
     );
   }
