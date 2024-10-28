@@ -23,10 +23,14 @@ const DashBoard = () => {
     resolver: zodResolver(usernameSchema),
   });
 
+  // useEffect(() => {
+  //  setValue("username", user?.username);
+  // }, [isLoaded]);
   useEffect(() => {
-
-    setValue("username", user?.username);
-  }, [isLoaded]);
+    if (isLoaded && user?.username) {
+      setValue("username", user.username);
+    }
+  }, [isLoaded, user?.username, setValue]);
 
   const { loading, error, fn: fnUpdateUsername } = useFetch(updateUsername);
 
