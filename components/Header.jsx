@@ -20,9 +20,9 @@ const Header = async () => {
           className="w-20 sm:w-28 md:w-40 md:ml-10  lg:w-40 xl:w-32"
         />
       </Link>
-      <div className="flex items-center gap-3 sm:gap-5 md:gap-8">
+      <div className="flex items-center gap-2 sm:gap-5 md:gap-8">
         <Link href="/events?create=true">
-          <Button className="flex items-center gap-2 text-sm md:text-sm md:py-5 ">
+          <Button className="flex items-center gap-1  text-xs  md:text-sm md:py-5 ">
             <PenBox size={18} />
             Create Event
           </Button>
