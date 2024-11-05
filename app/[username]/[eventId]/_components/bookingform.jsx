@@ -95,7 +95,7 @@ const BookingForm = ({ event, availability }) => {
   }
 
   return (
-    <div className="flex flex-col gap-4 sm:gap-6 p-4 sm:p-6  border bg-white">
+    <div className="flex flex-col gap-4 sm:gap-6 p-2 sm:p-6  border bg-white">
       <div className="flex flex-col md:flex-row gap-4 sm:gap-5 ">
         <div className="w-full">
           <DayPicker
