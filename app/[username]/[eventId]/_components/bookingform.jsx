@@ -83,10 +83,10 @@ const BookingForm = ({ event, availability }) => {
 
     return (
       <div className="text-center p-4 sm:p-6 border bg-white">
-        <h2 className="text-lg sm:text-xl font-bold mb-2 sm:mb-4 ">
+        <h2 className="text-lg sm:text-xl font-bold mb-2  sm:mb-4 ">
           Your call has been successfully scheduled.
           <br />
-          <span className="text-blue-500"> {formattedStartTime}.</span>
+          <span className="text-blue-500 "> {formattedStartTime}.</span>
         </h2>
 
         <h4 className="text-sm">We will provide connection details shortly.</h4>
