@@ -16,8 +16,6 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { updateAvailability } from "@/actions/availability";
 import useFetch from "@/components/hooks/useFetch";
- 
-
 
 const AvailabilityForm = ({ initalData }) => {
   const {
@@ -38,9 +36,9 @@ const AvailabilityForm = ({ initalData }) => {
     error,
   } = useFetch(updateAvailability);
 
-  const onSubmit = async(data) =>{
-    await fnUpdateAvailability(data)
-  }
+  const onSubmit = async (data) => {
+    await fnUpdateAvailability(data);
+  };
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
       {[
@@ -154,10 +152,12 @@ const AvailabilityForm = ({ initalData }) => {
           <p className="text-red-600 text-sm ml-2">{errors.timeGap.message}</p>
         )}
       </div>
-      {error && <div className="text-red-600 text-sm ml-2">{error.message}</div>}
+      {error && (
+        <div className="text-red-600 text-sm ml-2">{error.message}</div>
+      )}
 
       <Button type="submit" className="mt-5" disabled={loading}>
-      {loading?"Updating...":"Update Availability"}
+        {loading ? "Updating..." : "Update Availability"}
       </Button>
     </form>
   );

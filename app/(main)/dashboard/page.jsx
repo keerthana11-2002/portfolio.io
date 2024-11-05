@@ -9,7 +9,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useEffect } from "react";
 import useFetch from "@/components/hooks/useFetch";
 import { updateUsername } from "@/actions/users";
-import {BarLoader} from "react-spinners"
+import { BarLoader } from "react-spinners";
 
 const DashBoard = () => {
   const { isLoaded, user } = useUser();
@@ -75,4 +75,3 @@ const DashBoard = () => {
 };
 
 export default DashBoard;
- 
