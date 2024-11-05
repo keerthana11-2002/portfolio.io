@@ -23,9 +23,6 @@ const DashBoard = () => {
     resolver: zodResolver(usernameSchema),
   });
 
-  // useEffect(() => {
-  //  setValue("username", user?.username);
-  // }, [isLoaded]);
   useEffect(() => {
     if (isLoaded && user?.username) {
       setValue("username", user.username);
