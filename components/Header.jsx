@@ -17,12 +17,12 @@ const Header = async () => {
           width={250}
           height={200}
           alt="logo"
-          className="w-20 sm:w-28 md:w-40 md:ml-10  lg:w-40 xl:w-48"
+          className="w-20 sm:w-28 md:w-40 md:ml-10  lg:w-40 xl:w-32"
         />
       </Link>
       <div className="flex items-center gap-3 sm:gap-5 md:gap-8">
         <Link href="/events?create=true">
-          <Button className="flex items-center gap-2 text-sm md:text-2xl md:py-7 ">
+          <Button className="flex items-center gap-2 text-sm md:text-sm md:py-5 ">
             <PenBox size={18} />
             Create Event
           </Button>
