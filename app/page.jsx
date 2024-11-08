@@ -62,7 +62,7 @@ export default function Home() {
             individuals to focus on what truly matters
           </p>
           <Link href="/dashboard">
-            <Button className="ml-3 text-xs md:text-xl md:p-5 md:ml-5 md:mt-5 xl:ml-8">
+            <Button className="ml-3 text-xs md:text-xl md:p-5 md:ml-5 md:mt-5 xl:ml-10">
               Get Started <ArrowRight className="ml-2 h-5 w-5 " />
             </Button>
           </Link>
