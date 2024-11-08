@@ -30,9 +30,6 @@ const EventPage = async ({ params }) => {
 
   return (
     <>
-      <h1 className="text-center xl:text-5xl text-blue-500 text-3xl font-bold ">
-        Event
-      </h1>
       <div className="flex flex-col justify-center lg:flex-row px-4 py-8 text-3xl">
         <EventDetails event={event} availability={availability} />
         <Suspense fallback={<div>Loading booking form...</div>}>
