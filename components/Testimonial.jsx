@@ -73,8 +73,8 @@ const Testimonial = () => {
                       </AvatarFallback>
                     </Avatar>
                     <div>
-                      <p className="font-semibold">{testimonial.name}</p>
-                      <p className="text-sm text-gray-500">
+                      <p className="font-semibold ml-2">{testimonial.name}</p>
+                      <p className="text-sm ml-2 text-gray-500">
                         {testimonial.role}
                       </p>
                     </div>

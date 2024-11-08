@@ -80,7 +80,7 @@ export default function Home() {
       </div>
 
       <div className="mb-24 -mt-20 xl:mt-28  ">
-        <h2 className="xl:text-5xl text-3xl text-center mb-5  text-blue-500">
+        <h2 className="xl:text-5xl text-3xl text-center mb-8  text-blue-500">
           Key Features
         </h2>
         <div className="grid md:grid-cols-3 grid-cols-1 gap-8">
@@ -104,14 +104,14 @@ export default function Home() {
         </div>
       </div>
       <div className="mb-24">
-        <h2 className="xl:text-5xl text-3xl text-center mb-5 text-blue-500">
+        <h2 className="xl:text-5xl text-3xl text-center mb-8 text-blue-500">
           What our users say
         </h2>
         <Testimonial />
       </div>
 
       <div className="mb-20">
-        <h2 className="xl:text-5xl text-3xl text-center mb-5 text-blue-500">
+        <h2 className="xl:text-5xl text-3xl text-center mb-8 text-blue-500">
           How It Works
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
