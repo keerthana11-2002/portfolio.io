@@ -15,6 +15,9 @@ export default function RootLayout({ children }) {
   return (
     <ClerkProvider>
       <html lang="en">
+      <head>
+          <link rel="icon" href="/logo1.png" type="image/png" className="border-radius=5px" />  
+        </head>
         <body className={inter.className}>
           <Header />
           <main className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
