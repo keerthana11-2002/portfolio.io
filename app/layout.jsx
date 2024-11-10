@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
           </main>
           <footer className="py-12 bg-blue-200 ">
             <div className=" container mx-auto px-4 text-center text-2xl  ">
-              <p className="mb-5 xl:mb-0">Your Ultimate Planning Partner </p>
+              <p className="mb-5 xl:mb-0">Your Ultimate Planning Partners </p>
             </div>
           </footer>
           <CreateEventDrawer />
